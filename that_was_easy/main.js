@@ -4,3 +4,10 @@ easy.play();
 }
 
 $("#easy").on("click",ease);
+
+$(document).keypress(key);
+
+function key (event)
+{
+    console.log(event.charCode);
+}
